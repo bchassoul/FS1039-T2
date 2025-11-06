@@ -61,7 +61,7 @@ jupyter nbconvert --to html notebooks/analysis.ipynb --output-dir results/
 
 El notebook `analysis.ipynb` contiene el análisis completo de la simulación, dividido en cuatro problemas principales:
 
-### 🔵 Problema 1: Velocidad radial
+### ⭐ Problema 1: Velocidad radial
 - 1.1: Visualización de la velocidad radial en km/s usando `pcolormesh` con colormap `seismic_r`
 - 1.2: Identificación de tres regiones principales:
   - Jet
@@ -69,17 +69,17 @@ El notebook `analysis.ipynb` contiene el análisis completo de la simulación, d
   - Infall
 - Estadísticas: Cálculo de área porcentual y estadísticas de velocidad para cada región
 
-### 🟢 Problema 2: Densidad
+### ⭐ Problema 2: Densidad
 - 2.1: Visualización del logaritmo en base 10 de la densidad
 - 2.2: Identificación de densidades típicas del jet y disco de acreción
 
-### 🟠 Problema 3: Gradiente de presión vs gravedad
+### ⭐ Problema 3: Gradiente de presión vs gravedad
 - 3.1: Cálculo de la fuerza gravitacional por unidad de volumen (F_g = GM*ρ/r²)
 - 3.2: Visualización de razones presión/gravedad:
   - Razón térmica: (∂P/∂r) / F_g
   - Razón magnética: (∂P_B/∂r) / F_g
 
-### 🟣 Problema 4: Evolución temporal
+### ⭐ Problema 4: Evolución temporal
 - Análisis: Evolución de masa, tasa de acreción y luminosidades
 
 ## 👀 Resultados
